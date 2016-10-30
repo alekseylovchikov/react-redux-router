@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700');
+
+h1 {
+  font-weight: 300;
+}
+
+a {
+  color: #c4ffb7;
+}
+
+a:hover {
+  color: #81ff65;
+  text-decoration: none;
+}
+
+#app {
+  font-family: 'Roboto', sans-serif;
+}
+
+.jumbotron {
+  background: #0b2638;
+  height: 100vh;
+  letter-spacing: .5px;
+  font-weight: 300;
+  font-size: 22px;
+  word-wrap: break-word;
+  margin-bottom: 0;
+  padding: 64px;
+}
+
+.jumbotron h1 {
+  margin: 1rem 0;
+  font-size: 36px;
+  color: #fff;
+}
+
+.jumbotron p {
+  color: #fff;
+}
+
+.navbar-top {
+  position: absolute;
+  top: 10px;
+  right: 64px;
+}
+
+.navbar-top ul {
+  list-style: none;
+}
+
+.navbar-top ul li {
+  display: inline-block;
+  padding: 16px;
+}
+
+.navbar-top ul li a {
+  text-transform: uppercase;
+  color: #ff69dc;
+}
+
+.navbar-top ul li a:active,
+.navbar-top ul li a:link {
+  text-decoration: none;
+}
+
+.navbar-top ul li a.active {
+  text-decoration: underline;
+}
+
+/* about page */
+
+.about {
+  background: #202127;
+  color: #fff;
+  padding: 64px;
+  height: 100vh;
+}
+
+.about h1 {
+  margin: 1rem 0;
+}
+
+.about p {
+  font-weight: 300;
+}
+
+/* courses */
+
+.courses {
+  padding: 64px;
+  height: 100vh;
+  background: #19151f;
+  color: #fff;
+}
+
+.courses h1 {
+  margin: 1rem 0;
+}
