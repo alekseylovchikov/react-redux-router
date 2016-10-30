@@ -12,6 +12,9 @@ class App extends React.Component {
       <div>
         <Navbar />
         {this.props.children}
+        <footer>
+          <small>{'Aleksey Lovchikov | +7 (999) 223-92-97 | All rights reserved. 2016'}</small>
+        </footer>
       </div>
     );
   }
