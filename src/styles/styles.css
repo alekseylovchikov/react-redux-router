@@ -8,6 +8,24 @@
 
 h1, h2 {
   font-weight: 300;
+  text-transform: uppercase;
+}
+
+h1 {
+  text-align: center;
+}
+
+h1:after {
+  content: "";
+  display: block;
+  width: 100%;
+  height: 2px;
+  background: #ccc;
+  margin-top: .5rem;
+}
+
+h2 {
+  margin-top: 2rem;
 }
 
 input[type="text"] {
@@ -16,6 +34,8 @@ input[type="text"] {
   padding: 8px 0;
   margin: 1rem 0;
   border-radius: 2px;
+  font-size: 14px;
+  text-indent: 8px;
 }
 
 input[type="text"]:focus {
@@ -32,6 +52,7 @@ input[type="text"]:focus {
   text-transform: uppercase;
   color: #fff;
   cursor: pointer;
+  font-size: 14px;
 }
 
 a:link,
